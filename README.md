@@ -1,14 +1,14 @@
-# @ctw/geo
+# ctw-geo
 
 Typed country / state / city data. Countries load eagerly (~12 KB); states and
 cities load lazily as one code-split chunk per country.
 
 ```bash
-npm install @ctw/geo   # or: yarn add @ctw/geo / pnpm add @ctw/geo
+npm install ctw-geo   # or: yarn add ctw-geo / pnpm add ctw-geo
 ```
 
 ```ts
-import { countries, loadStates, loadCitiesInState } from "@ctw/geo";
+import { countries, loadStates, loadCitiesInState } from "ctw-geo";
 
 countries; // Country[] - available immediately
 await loadStates("US"); // State[]   - ~2 KB chunk

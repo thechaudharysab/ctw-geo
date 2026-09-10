@@ -1,5 +1,5 @@
 {
-  "name": "@ctw/geo",
+  "name": "ctw-geo",
   "version": "0.1.0",
   "description": "Country, state and city data as a typed ESM package. Countries load eagerly; states and cities load lazily, one code-split chunk per country.",
   "keywords": [
